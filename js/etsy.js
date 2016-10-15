@@ -92,7 +92,7 @@ eightOrMore.forEach(function(titleAndMaterials){
 
 //question 6
 //show me how to calculate how many items were made by their sellers
-//first make a variable to filter out the "who_made" from the data.  In the return value, we have to include the i_did to find out which items were actually made by their sellers.  Then you console log the variable and add a length to count how many items that were made by the sellers.
+//I had to get help with this one.  Didn't understand the question at first.  I thought it was super complicated because it was the last one.  first make a variable to filter out the "who_made" from the data.  In the return value, we have to include the i_did to find out which items were actually made by their sellers.  Then you console log the variable and add a length to count how many items that were made by the sellers.
 var findOut = items.filter(function(item){
   return item.who_made.includes('i_did')
 })
